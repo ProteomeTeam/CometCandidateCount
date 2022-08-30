@@ -11,12 +11,14 @@ Comet-CC can be searched the same as Comet. (using sample database and sample da
 last mgf file path
 
 We remove duplicate scan and e-value sorting of search results with removeDuplicationAndSort.jar (applied sequentially)
+
 ==> java -jar removeDuplicationAndSort.jar sampleSearchResult.txt sampleSearchResult.reName.txt
 1. inputReuslt file path
 2. outputResult file path
 
 Then, we estimate the FDR. (applied sequentially)
-python cometFDR.py sampleSearchResult.reName.txt sampleSearchResult.reName.1%.TDS.txt "XXX" 0.01 0
+
+==> python cometFDR.py sampleSearchResult.reName.txt sampleSearchResult.reName.1%.TDS.txt "XXX" 0.01 0
 1. input file path
 2. output file path
 3. decoyCharacter (ex "XXX_")
