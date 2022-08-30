@@ -6,7 +6,6 @@ We can estimate cTDS using target and decoy candidate peptides generated from Co
 Comet-CC can be searched the same as Comet. (using sample database and sample dataset)
 
 ==> comet.exe -Dhuman_sample_R.fast -Pcomet.params.human.new -NsampleSearchResult sample.mgf
-
 -D: database file path
 -P: paramter file path
 -N: outputfile name path
