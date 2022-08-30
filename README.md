@@ -19,6 +19,8 @@ We remove duplicate scan and e-value sorting of search results with removeDuplic
 Then, we estimate the FDR. (applied sequentially)
 
 ==> python cometFDR.py sampleSearchResult.reName.txt sampleSearchResult.reName.1%.TDS.txt "XXX_" 0.01 0
+==> python cometFDR.py sampleSearchResult.reName.txt sampleSearchResult.reName.1%.cTDS.txt "XXX_" 0.01 1
+
 1. input file path
 2. output file path
 3. decoyCharacter (ex "XXX_")
