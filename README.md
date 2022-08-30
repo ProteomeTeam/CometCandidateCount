@@ -12,7 +12,7 @@ Comet-CC can be searched the same as Comet. (using sample database and sample da
 3. -N: outputfile name path
 4. last mgf file path
 
-We remove duplicate scan and e-value sorting of search results with removeDuplicationAndSort.jar (applied sequentially)
+We remove duplicate scans and sort the e-value of search results with removeDuplicationAndSort.jar (applied sequentially)
 
 ==> java -jar removeDuplicationAndSort.jar sampleSearchResult.txt sampleSearchResult.reName.txt
 1. inputReuslt file path
