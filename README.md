@@ -1,5 +1,7 @@
 # CometCandidateCount (Comet-CC)
 
+** The modified code to output the number of target and decoy candidate peptides is output only as a .txt file.
+
 Comet-CC is an modified version of the comet to output target and decoy candidate peptides.
 We can estimate cTDS using target and decoy candidate peptides generated from Comet-CC.
 
